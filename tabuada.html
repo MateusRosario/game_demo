@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabuada HTML</title>
+</head>
+<body style="background-color: rgb(112, 201, 174); color: white; margin:0; padding:0; display: flex; justify-content: center; align-content: center;">
+    <main>
+        <h3 style="text-align: center;">TABUADAS (de 0 até 100)</h3>
+        <div id="output" style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 10px"></div>
+    </main>
+    <script type="module">
+        import result from './tabuada.js';
+        document.getElementById('output').innerHTML = result;
+    </script>
+</body>
+</html>
